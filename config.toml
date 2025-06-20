@@ -1,0 +1,65 @@
+baseURL = "https://chibayoshihiro.github.io/my-hugo-blog/"
+languageCode = "ja-jp"
+title = "My PaperMod Blog"
+theme = "PaperMod"
+
+pagerSize = 10
+
+[params.homeInfoParams]
+    Title = "ようこそ"
+    Content = "このブログでは、技術メモ・旅・音楽の話題を発信しています。"
+
+[params]
+  # 見出し
+  # homeInfoParams = { Title = "ようこそ", Content = "これは PaperMod テーマを使った Hugo ブログです。" }
+  
+  # 読了時間表示
+  ShowReadingTime = true
+
+  # パンくずリスト
+  showBreadCrumbs = true
+
+  # 全体で目次を表示するか
+  showToc = true
+  # 初期状態で目次を開いておく
+  tocOpen = true
+  # これで記事一覧にもカバーが出る
+  ShowCover = true
+  # ダークモードデフォルトなどの設定
+  defaultTheme = "auto" 
+
+  # COPYRIGHT
+  copyright = "© 2025 Yoshihiro Chiba. Powered by Hugo & PaperMod"
+
+  socialIcons = [
+  { name = "twitter", url = "https://x.com/hibisaboru" },
+  { name = "instagram", url = "https://www.instagram.com/dj.sabori/" }
+  ]
+
+  # [social]
+  # twitter = "https://x.com/hibisaboru"
+  # instagram = "https://www.instagram.com/dj.sabori/"
+
+
+[menu]
+ # メニュー
+  [[menu.main]]
+  # identifier = "hugoblog"
+  # name = "Hugo"
+  # url = "/categories/hugoblog/"
+  # weight = 1
+
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+   [[menu.main]]
+    identifier = "music"
+    name = "音楽"
+    url = "/categories/music/"
+    weight = 2
+  
+[taxonomies]
+  category = "categories"
+  tag = "tags"
