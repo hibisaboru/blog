@@ -5,6 +5,9 @@ relativeURLs = true
 title = "My PaperMod Blog"
 theme = "PaperMod"
 
+[params.assets]
+disableFingerprinting = true
+
 pagerSize = 10
 
 [params.homeInfoParams]
@@ -41,9 +44,6 @@ pagerSize = 10
   # [social]
   # twitter = "https://x.com/hibisaboru"
   # instagram = "https://www.instagram.com/dj.sabori/"
-
-[params.assets]
-disableFingerprinting = true
 
 [menu]
  # メニュー
