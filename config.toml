@@ -1,6 +1,7 @@
 baseURL = "https://hibisaboru.github.io/hugo-blog/"
 canonifyURLs = true
 languageCode = "ja-jp"
+relativeURLs = true
 title = "My PaperMod Blog"
 theme = "PaperMod"
 
@@ -41,6 +42,8 @@ pagerSize = 10
   # twitter = "https://x.com/hibisaboru"
   # instagram = "https://www.instagram.com/dj.sabori/"
 
+[params.assets]
+disableFingerprinting = true
 
 [menu]
  # メニュー
