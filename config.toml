@@ -1,4 +1,4 @@
-baseURL = "https://chibayoshihiro.github.io/my-hugo-blog/"
+baseURL = "https://hibisaboru.github.io/hugo-blog/"
 languageCode = "ja-jp"
 title = "My PaperMod Blog"
 theme = "PaperMod"
