@@ -1,4 +1,5 @@
 baseURL = "https://hibisaboru.github.io/hugo-blog/"
+canonifyURLs = true
 languageCode = "ja-jp"
 title = "My PaperMod Blog"
 theme = "PaperMod"
