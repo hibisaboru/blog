@@ -2,44 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hibisaboru.github.io/posts/my-second-post/</loc>
+    <loc>https://hibisaboru.github.io/hugo-blog/posts/my-second-post/</loc>
     <lastmod>2025-06-17T10:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://hibisaboru.github.io/about/</loc>
+    <loc>https://hibisaboru.github.io/hugo-blog/about/</loc>
     <lastmod>2025-06-18T19:53:08+09:00</lastmod>
   </url><url>
-    <loc>https://hibisaboru.github.io/</loc>
+    <loc>https://hibisaboru.github.io/hugo-blog/</loc>
     <lastmod>2025-06-18T19:53:08+09:00</lastmod>
   </url><url>
-    <loc>https://hibisaboru.github.io/categories/</loc>
+    <loc>https://hibisaboru.github.io/hugo-blog/categories/</loc>
     <lastmod>2025-06-17T10:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://hibisaboru.github.io/tags/hugo/</loc>
+    <loc>https://hibisaboru.github.io/hugo-blog/tags/hugo/</loc>
     <lastmod>2025-06-17T10:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://hibisaboru.github.io/categories/hugoblog/</loc>
+    <loc>https://hibisaboru.github.io/hugo-blog/categories/hugoblog/</loc>
     <lastmod>2025-06-17T10:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://hibisaboru.github.io/posts/</loc>
+    <loc>https://hibisaboru.github.io/hugo-blog/posts/</loc>
     <lastmod>2025-06-17T10:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://hibisaboru.github.io/tags/</loc>
+    <loc>https://hibisaboru.github.io/hugo-blog/tags/</loc>
     <lastmod>2025-06-17T10:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://hibisaboru.github.io/posts/first-post/</loc>
+    <loc>https://hibisaboru.github.io/hugo-blog/posts/first-post/</loc>
     <lastmod>2025-06-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hibisaboru.github.io/posts/my-third-post/</loc>
+    <loc>https://hibisaboru.github.io/hugo-blog/posts/my-third-post/</loc>
     <lastmod>2025-06-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hibisaboru.github.io/tags/papermod/</loc>
+    <loc>https://hibisaboru.github.io/hugo-blog/tags/papermod/</loc>
     <lastmod>2025-06-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hibisaboru.github.io/tags/%E5%AE%9F%E9%A8%93/</loc>
+    <loc>https://hibisaboru.github.io/hugo-blog/tags/%E5%AE%9F%E9%A8%93/</loc>
     <lastmod>2025-06-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://hibisaboru.github.io/categories/music/</loc>
+    <loc>https://hibisaboru.github.io/hugo-blog/categories/music/</loc>
   </url><url>
-    <loc>https://hibisaboru.github.io/__index/</loc>
+    <loc>https://hibisaboru.github.io/hugo-blog/__index/</loc>
   </url>
 </urlset>
