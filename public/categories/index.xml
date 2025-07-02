@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on hibisaboru.com</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://hibisaboru.com/categories/</link>
     <description>Recent content in Categories on hibisaboru.com</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>ja-jp</language>
     <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hibisaboru.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>http://localhost:1313/categories/blog/</link>
+      <link>https://hibisaboru.com/categories/blog/</link>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/categories/blog/</guid>
+      <guid>https://hibisaboru.com/categories/blog/</guid>
       <description></description>
     </item>
   </channel>

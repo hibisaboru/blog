@@ -1,7 +1,8 @@
-baseURL = 'http://localhost/'
+baseURL = 'https://hibisaboru.com/'
 languageCode = 'ja-jp'
 title = 'hibisaboru.com'
 theme = 'PaperMod'
+canonifyURLs = true
 
 [params]
   # 記事一覧（true/非表示）
