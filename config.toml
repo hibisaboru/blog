@@ -1,0 +1,106 @@
+baseURL = 'http://localhost/'
+languageCode = 'ja-jp'
+title = 'hibisaboru.com'
+theme = 'PaperMod'
+
+[params]
+  # 記事一覧（true/非表示）
+  homeInfoParams = false
+
+  # 読了時間（true/表示）
+  ShowReadingTime = true
+
+  # 記事のシェアボタン（false/非表示）
+  # NOTE 一部のみのシェアボタン設定が難しいため、いったん非表示
+  ShowShareButtons = false
+
+  # 記事前後のナビゲーションリンク（true/表示）
+  ShowPostNavLinks = true
+
+  # パンくずリスト（true/表示）
+  ShowBreadCrumbs = true
+
+  # コピーボタン（true/表示）
+  ShowCodeCopyButtons = true
+
+  # デフォルトテーマ（auto/自動）
+  defaultTheme = "auto"
+
+  # favicon設定
+  # NOTE 未設定。partials/head.html に設定が必要かも。
+  # favicon = "favicon.ico"
+
+  # フッターの著作権・クレジット表示
+  # footer = "© 2025 sabori / hibisaboru.com"
+
+  # トップページの最大記事表示数
+  paginate = 5
+
+  # トップのプロフィール表示可否（false/非表示）
+  [params.profileMode]
+    enabled = false
+  
+  # トップのプロフィール設定（コメントアウト/非表示）
+  #[params.homeInfoParams]
+  #  Title = "ようこそ"
+  #  Content = "このブログでは構築ログや技術メモを記録しています。"
+
+  [[params.socialIcons]]
+    name = "instagram"
+    url = "https://www.instagram.com/dj.sabori"
+
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/hibisaboru"
+
+
+# カテゴリ設定
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+
+# メニューボタン
+[menu]
+
+  # メインページ
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  # 自己紹介
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  
+  # ブログ
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
+  
+  # 旅行
+ [[menu.main]]
+    name = "Travel"
+    url = "/travel/"
+    weight = 4
+
+  # 技術（切り出し予定）
+ [[menu.main]]
+    name = "Tech"
+    url = "/tech/"
+    weight = 5
+    
+  # カテゴリ
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 6
+
+  # タグ
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 7
