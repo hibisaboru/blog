@@ -47,8 +47,7 @@ mainSections = ["blog"]
   # トップのプロフィール設定（表示）
 [params.profileMode]
     enabled = true
-    name = "Welcome to hibisaboru.com"
-    subtitle = ""
+    subtitle = "Welcome to hibisaboru.com"
     imageUrl = "images/profile.png"
     imageTitle = "profile.png"
     imageWidth = 120
