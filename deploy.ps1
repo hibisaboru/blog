@@ -1,11 +1,21 @@
 # deploy.ps1（hibisaboru.github.io に置く必要はなし。どこでもOK）
 
-# Hugoプロジェクト → デプロイ先に直接出力
-hugo -s ../hibisaboru.com -d ../hibisaboru.github.io
+# ===== Hugoビルド =====
+cd ../hibisaboru.com
+hugo
 
-# デプロイ先でgit操作
-cd ../hibisaboru.github.io
+# ===== blogリポジトリ（= hibisaboru.com）をpush =====
 git add -A
-git commit -m "Deploy: $(Get-Date -Format 'yyyy-MM-dd HH:mm')"
+git commit -m "update: $(Get-Date -Format 'yyyy-MM-dd HH:mm')"
+git push origin main  # 通常push。強制ではない
+
+# ===== GitHub Pages用リポジトリにpublicをコピーしてpush =====
+cd ../hibisaboru.github.io
+Copy-Item ../hibisaboru.com/public/* -Destination . -Recurse -Force
+
+git add -A
+git commit -m "deploy: $(Get-Date -Format 'yyyy-MM-dd HH:mm')"
 git push origin main
+
+# ===== 作業リポジトリに戻る =====
 cd ../hibisaboru.com
