@@ -1,0 +1,119 @@
+baseURL = 'https://hibisaboru.com/'
+languageCode = 'ja-jp'
+title = 'hibisaboru.com'
+theme = 'PaperMod'
+canonifyURLs = true
+
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+mainSections = ["blog"]
+
+[params]
+  description = "日々さぼる、を合言葉に。技術と日常を記録するブログ。"
+  images = ["images/profile.png"]
+  keywords = ["Hugo", "技術ブログ", "旅行記"]
+
+
+  # 読了時間（true/表示）
+  ShowReadingTime = true
+
+  # 記事のシェアボタン（true/表示）
+  ShowShareButtons = true
+
+  # 記事前後のナビゲーションリンク（true/表示）
+  ShowPostNavLinks = true
+
+  # パンくずリスト（true/表示）
+  ShowBreadCrumbs = true
+
+  # コピーボタン（true/表示）
+  ShowCodeCopyButtons = true
+
+  # デフォルトテーマ（auto/自動）
+  defaultTheme = "auto"
+
+  # favicon設定
+  # NOTE 未設定。partials/head.html に設定が必要かも。
+  # favicon = "favicon.ico"
+
+  # フッターの著作権・クレジット表示
+  # footer = "© 2025 sabori / hibisaboru.com"
+
+  # トップページの最大記事表示数
+  # paginate = 5
+  
+  # トップのプロフィール設定（表示）
+[params.profileMode]
+    enabled = true
+    name = "hibisaboru.com"
+    content = "Welcome to hibisaboru.com"
+    imageUrl = "images/profile.png"
+    imageTitle = "profile.png"
+    imageWidth = 120
+    imageHeight = 120
+
+  [[params.socialIcons]]
+    name = "instagram"
+    url = "https://www.instagram.com/dj.sabori"
+
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/hibisaboru"
+  
+  # PaperMod独自構成
+  [params.assets]
+  disableFingerprinting = true
+
+
+# カテゴリ設定
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+
+# メニューボタン
+[menu]
+
+  # メインページ
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  # 自己紹介
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  
+  # ブログ
+  [[menu.main]]
+   name = "Blog"
+   url = "/blog/"
+   weight = 3
+  
+  # 旅行
+ [[menu.main]]
+    name = "Travel"
+    url = "/travel/"
+    weight = 4
+
+  # 技術（切り出し予定）
+ [[menu.main]]
+    name = "Tech"
+    url = "/tech/"
+    weight = 5
+    
+  # カテゴリ
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 6
+
+  # タグ
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 7
