@@ -5,9 +5,12 @@ cd ../hibisaboru.com
 hugo
 
 # ===== blogリポジトリ（= hibisaboru.com）をpush =====
-git add -A
-git commit -m "update: $(Get-Date -Format 'yyyy-MM-dd HH:mm')"
-git push origin main  # 通常push。強制ではない
+
+if (-not (git diff --quiet)) {
+  git add -A
+  git commit -m "update: $(Get-Date -Format 'yyyy-MM-dd HH:mm')"
+  git push origin main # 通常push。強制ではない
+}
 
 # ===== GitHub Pages用リポジトリにpublicをコピーしてpush =====
 cd ../hibisaboru.github.io

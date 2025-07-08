@@ -11,7 +11,7 @@ buildExpired = false
 mainSections = ["blog"]
 
 [params]
-  description = "日々さぼる、を合言葉に。技術と日常を記録するブログ。"
+  description = "日々さぼる。日常と技術ログなどの記録ブログ。"
   images = ["images/profile.png"]
   keywords = ["Hugo", "技術ブログ", "旅行記"]
 
@@ -47,8 +47,8 @@ mainSections = ["blog"]
   # トップのプロフィール設定（表示）
 [params.profileMode]
     enabled = true
-    name = "hibisaboru.com"
-    content = "Welcome to hibisaboru.com"
+    name = ""
+    subtitle = "Welcome to hibisaboru.com"
     imageUrl = "images/profile.png"
     imageTitle = "profile.png"
     imageWidth = 120
@@ -95,13 +95,13 @@ mainSections = ["blog"]
    weight = 3
   
   # 旅行
- [[menu.main]]
+  [[menu.main]]
     name = "Travel"
     url = "/travel/"
     weight = 4
 
   # 技術（切り出し予定）
- [[menu.main]]
+  [[menu.main]]
     name = "Tech"
     url = "/tech/"
     weight = 5
