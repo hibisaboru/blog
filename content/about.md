@@ -9,7 +9,7 @@ draft: false
 ---
 
 **運営者：sabori**  
-生活 / 旅行 / DJ活動 / システムエンジニア
+生活 / 旅行 / DJ / システムエンジニア
 
 - Instagram: [@dj.sabori](https://www.instagram.com/dj.sabori)
 - X (Twitter): [@hibisaboru](https://twitter.com/hibisaboru)
