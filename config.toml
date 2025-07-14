@@ -121,5 +121,5 @@ mainSections = ["blog"]
   # DIARY
   [[menu.main]]
     name = "Diary"
-    url = "/Diary/"
+    url = "/diary/"
     weight = 8
