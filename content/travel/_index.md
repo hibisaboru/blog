@@ -1,3 +1,3 @@
 ---
-title: "旅行記事一覧"
+title: "travel"
 ---

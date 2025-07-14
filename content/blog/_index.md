@@ -1,3 +1,3 @@
 ---
-title: "Blog記事一覧"
+title: "Blog"
 ---

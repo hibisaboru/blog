@@ -117,3 +117,9 @@ mainSections = ["blog"]
     name = "Tags"
     url = "/tags/"
     weight = 7
+
+  # DIARY
+  [[menu.main]]
+    name = "Diary"
+    url = "/Diary/"
+    weight = 8
