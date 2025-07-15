@@ -105,21 +105,21 @@ mainSections = ["blog"]
     name = "Tech"
     url = "/tech/"
     weight = 5
-    
-  # カテゴリ
-  [[menu.main]]
-    name = "Categories"
-    url = "/categories/"
-    weight = 6
-
-  # タグ
-  [[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 7
 
   # DIARY
   [[menu.main]]
     name = "Diary"
     url = "/diary/"
+    weight = 6
+  
+  # カテゴリ
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 7
+
+  # タグ
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
     weight = 8
