@@ -95,16 +95,16 @@ mainSections = ["blog"]
    weight = 3
   
   # 旅行
-  [[menu.main]]
-    name = "Travel"
-    url = "/travel/"
-    weight = 4
+  #[[menu.main]]
+  # name = "Travel"
+  # url = "/travel/"
+  # weight = 4
 
   # 技術（切り出し予定）
-  [[menu.main]]
-    name = "Tech"
-    url = "/tech/"
-    weight = 5
+  #[[menu.main]]
+  # name = "Tech"
+  # url = "/tech/"
+  # weight = 5
 
   # DIARY
   [[menu.main]]
