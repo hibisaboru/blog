@@ -1,6 +1,6 @@
 ---
 title: "Diary"
-date: 2000-01-01T21:00:00+09:00
+date: 2025-07-14T21:00:00+09:00
 draft: false
 tags: ["diary"]
 categories: ["diary"]
