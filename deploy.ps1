@@ -1,5 +1,5 @@
 # ===== 設定 =====
-$Hugo = "C:\Tools\hugo\hugo.exe"
+$Hugo = "hugo"
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $BlogRepo = $ScriptDir
 $PagesRepo = Join-Path (Split-Path -Parent $BlogRepo) "hibisaboru.github.io"
