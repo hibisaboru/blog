@@ -11,7 +11,7 @@ buildExpired = false
 mainSections = ["blog"]
 
 [params]
-  description = "日々さぼる。日常と技術ログなどの記録。"
+  description = ""
   images = ["images/profile.png"]
   keywords = ["Hugo", "技術ブログ", "旅行記"]
   author = "sabori"
