@@ -13,5 +13,5 @@ categories: ["photos"]
 ![犬](/images/photos/2026-06-27/dog.jpg)
 ![直角カーブ](/images/photos/2026-06-27/keishin-curve.jpg)
 ![橋の下](/images/photos/2026-06-27/under_the_bridge.jpg)
-![橋の下2](/images/photos/2026-06-27/under_the_bridge2.jpg)
-![橋の下3](/images/photos/2026-06-27/under_the_bridge3.jpg)
+![橋の下2](/images/photos/2026-06-27/under_the_bridge_2.jpg)
+![橋の下3](/images/photos/2026-06-27/under_the_bridge_3.jpg)
