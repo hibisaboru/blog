@@ -9,8 +9,6 @@ categories: ["diary"]
 <!-- 追記テンプレ -->
 <!-- #### YYYY/MM/DD： -->
 <!-- 本文 -->
-# Diary 1年目
-
 [Diaryトップへ戻る](/diary/)
 
 #### 2026/07/13：
